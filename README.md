@@ -21,7 +21,7 @@ You must use the latest version of Docker, which is available for download from 
 2. Create your container:
 
     ```bash
-    docker run -it --rm -v "*path/to/use*:/app/saves" spore-community/sporeget
+    docker run -it --rm -v "*path/to/use*:/app/saved" spore-community/sporeget
     ```
     
     ![!](https://img.shields.io/static/v1?label=&message=!&color=yellow) Replace `*path/to/use*` with the actual path you intend to use for the archives.
